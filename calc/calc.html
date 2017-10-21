@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body style="margin-top: 100px;">
+
+<script type="text/javascript">
+ var audio = new Audio();
+ audio.src = "aud/kick.wav";
+
+
+ function backSpace() {
+  
+  var number = box.value;
+  
+  var len = number.length - 1;
+  
+  var newNumber = number.substring( 0, len );
+  
+  box.value = newNumber;
+
+}
+ 
+ </script>
+
+<div> 
+<form  name="Calculator"> 
+<center> 
+<h2>Basic Caculator</h2>
+<table>
+<input type="textbox" name="display" id="one"><br><br>
+<tr> 
+<input type="button" value="7" onClick="document.Calculator.display.value +='7'" onmousedown="audio.play()"/>
+<input type="button" value="8"  onClick="document.Calculator.display.value +='8'" onmousedown="audio.play()"/ >
+<input type="button" value="9" onClick="document.Calculator.display.value +='9'" onmousedown="audio.play()"/>
+<input type="button" value="+"  onClick="document.Calculator.display.value +='+'">
+</tr><br>
+<tr> 
+<input type="button" value="4" onClick="document.Calculator.display.value +='4'" onmousedown="audio.play()"/>
+<input type="button" value="5" onClick="document.Calculator.display.value +='5'" onmousedown="audio.play()"/ >
+<input type="button" value="6"    onClick="document.Calculator.display.value +='6'" onmousedown="audio.play()"/>
+<input type="button" value="-" onClick="document.Calculator.display.value +='-'" onmousedown="audio.play()"/">
+</tr><br>
+<tr> 
+<input type="button" value="1" onclick="document.Calculator.display.value +='1'" onmousedown="audio.play()"/>
+<input type="button" value="2" onClick="document.Calculator.display.value +='2'" onmousedown="audio.play()"/>
+<input type="button" value="3" onClick="document.Calculator.display.value +='3'" onmousedown="audio.play()"/>
+<input type="button" value="*" onClick="document.Calculator.display.value +='*'" onmousedown="audio.play()"/>
+</tr><br>
+<tr> 
+<input type="button" value="0" onClick="document.Calculator.display.value +='0'" onmousedown="audio.play()"/ >
+<input type="button" value="%" onClick="document.Calculator.display.value +='%'" onmousedown="audio.play()"/ >
+<input type="button" value="." onClick="document.Calculator.display.value +='.'"onmousedown="audio.play()"/ >
+<input type="button" value="/" onClick="document.Calculator.display.value +='/'"onmousedown="audio.play()"/ >
+</tr><br>
+<tr> 
+<input type="button" value="="  onClick="document.Calculator.display.value= eval(document.Calculator.display.value)"   id="two" onmousedown="audio.play()"/ >
+<input type="button" value="Del" onClick="document.Calculator.reset.value += ''" id="two" onmousedown="audio.play()"/>
+</tr>
+</table>
+</center>
+</form>
+</div>
+
+</body>
+</html>

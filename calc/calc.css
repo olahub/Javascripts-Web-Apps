@@ -1,0 +1,89 @@
+<style>
+html{
+  
+}
+div  input:hover
+   { 
+     background: #00552e;
+   }
+
+div  input:active
+   { 
+      background:#3eb370;
+   }
+   
+
+div input
+{
+	background:    #007b43;
+    color:         white;   
+}
+
+div form input
+ {
+   width:         80px;
+   height:        70px; 
+   font-size:     50px; 
+   border-radius: 8px;
+   background:    #3eb370;
+   color:         white;
+   text-decoration: none;
+ }
+
+marquee
+ {
+   font-family:    Agency fb;
+   color:          white;
+   background-color: #3eb370;
+   font-size:     25px;
+   margin:        8px;
+   height:        30px; 
+   border-radius: 8px;
+ }
+
+
+ h1
+ {
+	display:        inline-block;
+	background:     #3eb370;
+	color:          white;
+	list-style-type: none;
+	margin:         0px 70px 0px px;
+    padding:        5px 25px 5px 25px;
+	border-radius:  10px;
+	font-size:      40px;
+ }
+ 
+ b
+ {
+   font-family:   Agency fb;
+   color:         white;
+   background-color: #3eb370;
+   font-size:     30px;
+   margin:        8px;
+   height:        20px; 
+   border-radius: 8px;
+ }
+
+#one{
+    width:        328px; 
+	height:       60px; 
+	background:   #68be6d;
+    color:        #0d0015;	
+	text-align:   right; 
+	font-size:    30px; 
+	border-radius:8px;
+	margin:       2px;  
+	border-color: black;
+    } 
+   
+#two
+   {
+    width:         163px; 
+	height:        70px;
+	font-size:     50px; 
+	border-radius: 8px;
+    margin:        0px;
+   
+   }
+</style>

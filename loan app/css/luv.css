@@ -1,0 +1,43 @@
+body{
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+
+
+}
+form input{
+	background: #ffff97;
+	margin-bottom: 10px;
+	padding: 5px 5px 10px 20px;
+	border-radius: 10px;
+    font-size: 20px;
+}
+center form{
+	color: #ffff88;
+	padding: 20px 20px 2px 20px;
+	border-radius: 20px;
+	font-family: Elephant;
+	font-size:15px;
+}
+
+form h1 h2{
+
+	margin: 0px;
+}
+
+form p{
+	margin: 0px;
+}
+form br{
+	margin: 0px;
+}
+center div{
+
+margin: 0px;
+background: #17184b;
+color: #fff;
+padding: 10px;
+border-radius: 10px;
+font-size: 20px;
+display: inline-block;
+}
